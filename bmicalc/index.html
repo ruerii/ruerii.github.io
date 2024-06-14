@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#calculator"><i class="fas fa-calculator"></i> BMI Calculator</a></li>
+                <li><a href="#about"><i class="fas fa-info-circle"></i> About BMI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to BMI Calculator</h1>
+        <p>Hitung Indeks Massa Tubuh (BMI) Anda dan pelajari cara menjaga berat badan yang sehat.</p>
+    </section>
+
+    <section id="calculator">
+        <h2>BMI Calculator</h2>
+        <div class="calculator-container">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Masukkan Berat Anda">
+
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Masukkan Tinggi Anda">
+
+            <button onclick="calculateBMI()">Calculate BMI</button>
+
+            <div id="">
+                <p>BMI Anda:<span id="bmi-value"></span></p>
+                <p>BMI Category: <span id="bmi-category"></span></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About BMI</h2>
+        <p>Indeks Massa Tubuh (BMI) adalah ukuran lemak tubuh berdasarkan tinggi badan dan berat badan. 
+            BMI dihitung dengan membagi berat badan dalam kilogram dengan kuadrat tinggi badan dalam meter. </p>
+        <p><strong>Kategori BMI:</strong></p>
+        <ul>
+            <li>Kekurangan Berat Badan: < 18.5</li>
+            <li>Berat Badan Normal &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp : 18.5 - 24.9</li>
+            <li>Kelebihan Berat Badan &nbsp&nbsp: 25 - 29.9</li>
+            <li>Obesitas &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp: 30 atau lebih</li>
+        </ul>
+        <p><strong>Menjaga BMI yang Sehat:</strong></p>
+        <ul>
+            <li>Makan makanan seimbang dengan banyak buah, sayuran, dan biji-bijian.</li>
+            <li>Berolahraga secara teratur.</li>
+            <li>Batasi makanan olahan, minuman manis, dan lemak tidak sehat.</li>
+            <li>Konsultasikan dengan profesional kesehatan untuk mendapatkan saran yang dipersonalisasi.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kalkulator BMI By Septike Utari Nurrani </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
