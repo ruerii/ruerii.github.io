@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/slimut.jpg);
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    padding:10px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+main {
+    text-align: center;
+}
+
+#jual-kue {
+    display: flex;
+    flex-wrap: wrap;
+    float:inline-start;
+    gap: 20px;
+    height: auto;
+    text-align: center;
+    
+}
+
+.kue {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    height: auto;
+}
+
+.gambar-kue {
+    width: 200px;
+    height: auto;
+}
+
+.harga, .jumlah {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.beli-btn {
+    background-color: darkgray;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+.beli-btn:hover {
+    background-color: darkgray;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    .produk {
+        width: 100px;
+    }
+}
