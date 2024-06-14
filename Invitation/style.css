@@ -1,0 +1,135 @@
+
+body {
+    font-family: sans-serif;
+    background-image:url(bgindex.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-display: white;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    margin-left:10px;
+    line-height:50px;
+    font-size:20px;
+    order:1px solid #aaa;
+    padding:5px 15px;
+    border-radius:15px;
+    text-align: center;
+    background:darkgrey;
+    font-display: white;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+#home {
+    text-align: center;
+    background-image: url(bgindex.png);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    scrollbar-darkshadow-color: black;
+}
+
+#home img {
+    max-width: 450px;
+    height: auto;
+}
+
+img {
+    border-radius: 500px;
+}
+
+a {
+    border-radius: 10px;
+}
+
+#lokasi {
+    text-align: center;
+}
+
+
+#alamat {
+    text-align: center;
+}
+
+#konfirmasi {
+    text-align: center;
+}
+#surat {
+    text-align: center; }
+
+#form-konfirmasi label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#form-konfirmasi input,
+#form-konfirmasi select,
+#form-konfirmasi textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#form-konfirmasi button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(fontcc.ttf);
+  }
+  
+  h1 {
+    font-family: myFirstFont;
+    color: black;
+    color-interpolation-filters: linearRGB;
+    font-size: 50px;
+    border-radius: 2;
+    border-color: black;
+    font-feature-settings: "locl";
+  }
+
+/* Responsiveness */
+@media (max-width:1000px) {
+    nav ul {
+        text-align: left;
+    }
+
+    nav li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}

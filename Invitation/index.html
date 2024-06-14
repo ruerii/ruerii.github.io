@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Ulang Tahun</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#lokasi">Lokasi</a></li>
+                <li><a href="#konfirmasi">Konfirmasi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <nav> <h1>Undangan Ulang Tahun</h1> </nav>
+        <h2>Mari rayakan momen istimewa dengan tawa, kebahagiaan, dan keceriaan</h2>
+        <br>
+        <h2>Ratu's Birthday</h2>
+        <p>Tanggal:15 Juni</p>
+        <p>Waktu: 7 Malam</p>
+        <p>Lokasi: [Ditempat]</p>
+        <img src="cake.png" alt="Gambar Ulang Tahun">
+    </section>
+
+    <section id="lokasi">
+        <h2>Lokasi Acara</h2>
+        <iframe
+		src="https://www.google.com/maps/embed/v1/place?q=student+cafe&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+	</iframe>
+    </section>
+
+    <section id="alamat">
+       <p>Alamat Lengkap Lokasi</p>
+        <p>Ruko Allogio Timur Jl. Raya Legok - Karawaci No 1 & 2, Medang, Kec. Pagedangan, Kabupaten Tangerang, Banten 15334</p>
+        <p><a href="https://www.google.co.id/maps/place/STUCAF+(Student+Cafe+%26+Billiard)/@-6.2668276,106.6025161,17z/data=!3m1!4b1!4m6!3m5!1s0x2e69fda2251e834b:0x2803b0bdfd79a94c!8m2!3d-6.2668276!4d106.605091!16s%2Fg%2F11ghltd7sc?entry=ttu" 
+            target="_blank" class="map-link">Buka di Google Maps</a></p>
+    </section>
+
+    <section id="konfirmasi">
+        <h2>Konfirmasi Kehadiran</h2>
+        <form id="form-konfirmasi">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="hadir">Kehadiran:</label>
+            <select id="hadir" name="hadir" required>
+                <option value="hadir">Hadir</option>
+                <option value="tidak">Tidak Hadir</option>
+            </select>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan"></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; [2024] - [Septike Utari Nurrani]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
