@@ -1,0 +1,260 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about-me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    flex: 1;
+}
+
+#left {
+    flex: 2;
+    padding-right: 20px;
+}
+
+#right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#right img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: justify;
+}
+
+li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#awards button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#experience p {
+    text-align: justify;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.gallery {
+    width: 100%;
+    margin-bottom: 20px; /* Jarak sebelum footer */
+  }
+  
+  .image-container {
+    width: 25%; /* Lebar setiap gambar */
+    height: 200px; /* Tinggi setiap gambar */
+    margin: 0 5px; /* Jarak antara gambar */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Menyesuaikan gambar ke dalam wadah */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Jarak sebelum footer */
+  }
+  
+  td {
+    width: 50%; /* Lebar setiap kolom */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  
+  button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-info {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .contact-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-info li {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .contact-info a {
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .contact-info a:hover {
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 500px) {
+    .container {
+      margin: 20px auto;
+    }
+  }
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+}
